@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strona z efektem odwracania</title>
+    <!-- Dodaj Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Dodaj niestandardowy CSS -->
+    <link rel="stylesheet" href="PhotoPage.css">
+</head>
+<body>
+    <div class="container">
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="bc_PhotoPage.jpg" alt="Zdjęcie poziome">
+                </div>
+                <div class="flip-card-back">
+                    <p>Dziękuje wszystkim za przybycie na moje 18 urodziny! <br> Jestem mega wdzięczna za Waszą obecność i za to, że uczyniliście ten dzień tak wyjątkowym. <br> Dziękuję za wszystkie piękne życzenia i prezenty! Było niesamowicie💖🎉</p>
+                </div>
+            </div>
+        </div>
+        <div class="mt-4">
+            <button id="watch-button" class="btn btn-primary mr-2" onclick="window.location.href='https://drive.google.com/drive/folders/1tSxN5MzgdLmDNWAkaDI6EtcAfN2Bh6K9?usp=sharing'">Oglądaj</button>
+            <a id="download-button" class="btn btn-success" href="https://drive.google.com/file/d/1h2ynnWPHsZ--6s3N1wZCEb5t2OMo67zX/view?usp=sharing" download>Pobierz</a>
+        </div>
+    </div>
+
+    <!-- Dodaj Bootstrap JS oraz niestandardowy JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Dodaj niestandardowy JS -->
+    <script src="PhotoPage.js"></script>
+</body>
+</html>
